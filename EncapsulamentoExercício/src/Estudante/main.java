@@ -3,15 +3,14 @@ package Estudante;
 public class main {
 
 	public static void main(String[] args) {
-		Produto produto = new Produto("", 0, 0);
+		Estudante estudante = new Estudante();
 		
-		produto.setDescricao("Caixa de Leite");
-		produto.setQuantidade(10);
-		produto.setValor(7);
+		estudante.setName("Samuel");
+		estudante.setCourse("Tecnologia da Informacao");
+		estudante.setCpf("111.222.333-00");
+		estudante.setAge(23);
 		
-		System.out.println("Descricao:" + produto.getDescricao());
-		System.out.println("Quantidade:" + produto.getQuantidade());
-		System.out.println("Valor:" + produto.getValor());
+		estudante.ExibirCadastro();
 	}
 
 }
