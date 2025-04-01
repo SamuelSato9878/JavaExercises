@@ -20,14 +20,25 @@ class Produto {
 	}
 	
 	public void setQuantidade(int quantidade) {
-		this.quantidade = quantidade;
+		
+		if(quantidade < 0) {
+			System.out.println("Tente de novo");
+		}else {
+			this.quantidade = quantidade;
+		}
 	}
 	public int getQuantidade() {
+		
 		return quantidade;
 	}
 	
 	public void setValor(double valor) {
-		this.valor = valor;
+		
+		if(quantidade < 0) {
+			System.out.println("Tente de novo");
+		}else {
+			this.valor = valor;
+		}
 	}
 	public double getValor() {
 		return valor;

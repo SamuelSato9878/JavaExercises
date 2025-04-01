@@ -3,7 +3,7 @@ package EstoqueProduto;
 public class main {
 
 	public static void main(String[] args) {
-		Produto produto = new Produto("nulo", 0, 0);
+		Produto produto = new Produto("", 0, 0);
 		
 		produto.setDescricao("Caixa de Leite");
 		produto.setQuantidade(10);
